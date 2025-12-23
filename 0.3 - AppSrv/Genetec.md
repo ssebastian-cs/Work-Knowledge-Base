@@ -1,0 +1,1 @@
+We use Genetec for timeclock and building access cards. The Genetec system is the source of truth for the Timeclock Badge Number on our Okta profiles.
