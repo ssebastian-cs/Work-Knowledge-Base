@@ -73,3 +73,17 @@ There are 3 primary Authentication Methods:
 	- Password (Knowledge) + a code from a device (Possession)
 3. MFA (Multi Factor Authentication)
 	- Password (Knowledge) + a code from a device (Possession) + Fingerprint (Inherence)
+
+Every app action or function you interact with inside of the Workflows Console has inputs and/or outputs. However, **events only have outputs**. An output can be mapped to many inputs but an input will only accept a single output.
+
+All inputs and outputs have a data type. Types include:
+
+- Text 
+- File
+- True/False
+- Object
+- Number
+- Date & Time
+- Flow
+- Folder
+- List
