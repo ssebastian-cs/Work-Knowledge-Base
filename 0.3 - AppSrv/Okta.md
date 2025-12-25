@@ -54,3 +54,7 @@ Functions allow us to interact with, change, or control the data in our flow. A 
 Note cards are documentation only.
 
 Applications are integrated into the Flow using connectors which are pre-built frameworks that leverage APIs to allow the Flow to access specific cloud based applications.
+
+Authentication
+
+Authentication Factors are the ingredients used to prove identity and Authentication Methods are how these ingredients are combined.
