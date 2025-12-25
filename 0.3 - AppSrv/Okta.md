@@ -55,6 +55,21 @@ Note cards are documentation only.
 
 Applications are integrated into the Flow using connectors which are pre-built frameworks that leverage APIs to allow the Flow to access specific cloud based applications.
 
-Authentication
+*Authentication* is the process of verifying identity.
 
 Authentication Factors are the ingredients used to prove identity and Authentication Methods are how these ingredients are combined.
+
+There are 3 primary Authentication Factors:
+1. Knowledge (Something you know)
+2. Possession (Something you have)
+3. Inherence (Something you are)
+
+Authentication Methods & Combinations usually include one or more of the above Factors used to verify identity.
+
+There are 3 primary Authentication Methods:
+1. SFA (Single Factor Authentication)
+	- Password (Knowledge)
+2. 2FA (Two Factor Authentication)
+	- Password (Knowledge) + a code from a device (Possession)
+3. MFA (Multi Factor Authentication)
+	- Password (Knowledge) + a code from a device (Possession) + Fingerprint (Inherence)
