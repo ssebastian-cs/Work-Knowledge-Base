@@ -51,3 +51,6 @@ Functions allow us to interact with, change, or control the data in our flow. A 
 4. Advanced functions allow you to create more complex interactions involving API connectors, JSON, XML, and most types of encryption.
    ![[Pasted image 20251225090407.png]]
 
+Note cards are documentation only.
+
+Applications are integrated into the Flow using connectors which are pre-built frameworks that leverage APIs to allow the Flow to access specific cloud based applications.
