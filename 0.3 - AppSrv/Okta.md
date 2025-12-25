@@ -41,9 +41,13 @@ UI: Add App Action to choose the application we want to work with. After choosin
 How do **Functions** work?
 
 Functions allow us to interact with, change, or control the data in our flow. A function card is usually placed between App Action cards. This may include a continuation to execute the flow based on a value or conditionally performing an alternative logical flow. Okta Workflows categorizes the function cards to keep similar operations grouped. There are four types of functions you can choose from:
-1. **Logic** functions enable you to manage the structure of your flows. These include branching and error handling functions.  They direct the order and sequence of execution of various parts of your flow
-![[Pasted image 20251208162851.png]]
-2. **Manipulation** functions allow you to parse and manipulate data within the flow such as times and dates.  They also allow you to create and iterate over lists of items or values, and even perform mathematical operations.
-![[Pasted image 20251208163035.png]]
 
+1. **Logic** functions enable you to manage the structure of your flows. These include branching and error handling functions.  They direct the order and sequence of execution of various parts of your flow
+   ![[Pasted image 20251208162851.png]]
+2. **Manipulation** functions allow you to parse and manipulate data within the flow such as times and dates.  They also allow you to create and iterate over lists of items or values, and even perform mathematical operations.
+   ![[Pasted image 20251208163035.png]]
+3. Elements functions allow you to export flows and folders as JSON files and configure elements of any tables within a flow.
+   ![[Pasted image 20251225090304.png]]
+4. Advanced functions allow you to create more complex interactions involving API connectors, JSON, XML, and most types of encryption.
+   ![[Pasted image 20251225090407.png]]
 
