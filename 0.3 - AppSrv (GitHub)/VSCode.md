@@ -1,4 +1,3 @@
-tag: [[AppSrv]]
 ## VSCode Shortcuts 
 
 ctrl + shift + e is the shortcut for explorer menu

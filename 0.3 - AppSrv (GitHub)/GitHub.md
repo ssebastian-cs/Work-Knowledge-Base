@@ -1,5 +1,3 @@
-tag: [[AppSrv]]
-
 To commit to GitHub via VS Code:
 
 - **Make your initial commit** if your repo is empty:

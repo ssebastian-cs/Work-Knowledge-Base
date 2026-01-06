@@ -1,6 +1,3 @@
-
-Tags: [[AppSrv]]
-
 # Azure
 
 
