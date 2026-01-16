@@ -20,6 +20,12 @@ Rust doesn't have a garbage collector but it checks when needed. We can still ma
 
 Cargo is Rust's Package Manager<sup>5</sup>.
 
+To compile Rust program files in the terminal:
+```terminal
+rustc file-name.rs
+```
+
+
 
 ---
 ### Definitions

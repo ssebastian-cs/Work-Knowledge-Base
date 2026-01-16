@@ -1,3 +1,10 @@
+
+In Terminal if I navigate to the folder and then type:
+```PowerShell
+C:\Users\XYZ > cd "C:\target-folder"
+C:\target-folder > code .
+```
+It will open VS Code with that folder.
 ## VSCode Shortcuts 
 
 ctrl + shift + e is the shortcut for explorer menu
