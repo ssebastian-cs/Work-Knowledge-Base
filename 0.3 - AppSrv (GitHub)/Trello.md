@@ -1,3 +1,7 @@
+Trello has Boards and Lists. Lists can be added to Boards. Connect calendar to Trello to sync calendar events and block time for to-dos.
+
+Inbox, Planner, and Boards.
+
 How to consolidate items into to-dos:
 
 | **Tool**             | **How it works**                                                                                                                                                                                   |
