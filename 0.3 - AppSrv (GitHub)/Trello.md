@@ -2,6 +2,8 @@ Trello has Boards and Lists. Lists can be added to Boards. Connect calendar to T
 
 Inbox, Planner, and Boards.
 
+We can Mirror a card to view or edit it from more than one board.
+
 How to consolidate items into to-dos:
 
 | **Tool**             | **How it works**                                                                                                                                                                                   |
