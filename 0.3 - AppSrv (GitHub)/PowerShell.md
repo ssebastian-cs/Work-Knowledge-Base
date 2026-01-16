@@ -23,3 +23,9 @@ To **compile Rust program files** in the terminal:
 ```terminal
 rustc file-name.rs
 ```
+
+To **run** the file-name.exe:
+```terminal
+./file-name
+```
+
