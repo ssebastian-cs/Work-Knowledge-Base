@@ -1,3 +1,19 @@
+### Installation
+
+Downloaded the Rust installation application from [here](https://rust-lang.org/tools/install/).
+
+It ran the terminal command to download and install Rust.
+
+![[Pasted image 20260116110538.png]]
+![[Pasted image 20260116110842.png]]
+![[Pasted image 20260116110914.png]]
+![[Pasted image 20260116111014.png]]
+
+Rust installation was successfully completed.
+
+---
+### Notes
+
 Rust is a compiled programming language<sup>1</sup> know for its safety, concurrency, and performance. It is know for being a fast and powerful system programming<sup>2</sup> language. It is more useful for systems than applications, with the exception of web development<sup>3</sup>. Rust is used for Blockchain<sup>4</sup> technologies.
 
 Rust doesn't have a garbage collector but it checks when needed. We can still manage memory. [Rust's memory management](https://www.google.com/search?q=Rust%27s+memory+management&rlz=1C1GCEA_enCA1175CA1175&oq=how+does+memory+management+work+in+Rust&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTINCAEQABiGAxiABBiKBTINCAIQABiGAxiABBiKBTINCAMQABiGAxiABBiKBTINCAQQABiGAxiABBiKBTIHCAUQABjvBTIHCAYQABjvBTIHCAcQABjvBdIBCTEwNTE1ajBqN6gCCLACAfEFITofIzDQokrxBSE6HyMw0KJK&sourceid=chrome&ie=UTF-8&ved=2ahUKEwi_jpCeuZCSAxXLGjQIHW-6FMwQgK4QegQIARAB) ==uses a unique **ownership system** with strict compile-time rules (ownership, borrowing, lifetimes) to guarantee memory safety without a garbage collector==, providing C/C++ speed with automated deallocation when owners go out of scope, preventing common bugs like [dangling pointers](https://www.google.com/search?q=dangling+pointers&rlz=1C1GCEA_enCA1175CA1175&oq=how+does+memory+management+work+in+Rust&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTINCAEQABiGAxiABBiKBTINCAIQABiGAxiABBiKBTINCAMQABiGAxiABBiKBTINCAQQABiGAxiABBiKBTIHCAUQABjvBTIHCAYQABjvBTIHCAcQABjvBdIBCTEwNTE1ajBqN6gCCLACAfEFITofIzDQokrxBSE6HyMw0KJK&sourceid=chrome&ie=UTF-8&ved=2ahUKEwi_jpCeuZCSAxXLGjQIHW-6FMwQgK4QegQIARAD) and leaks. Values have a single owner; ownership transfers when assigned (moving), or data can be temporarily accessed via **borrowing** (references). The **[borrow checker](https://www.google.com/search?q=borrow+checker&rlz=1C1GCEA_enCA1175CA1175&oq=how+does+memory+management+work+in+Rust&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTINCAEQABiGAxiABBiKBTINCAIQABiGAxiABBiKBTINCAMQABiGAxiABBiKBTINCAQQABiGAxiABBiKBTIHCAUQABjvBTIHCAYQABjvBTIHCAcQABjvBdIBCTEwNTE1ajBqN6gCCLACAfEFITofIzDQokrxBSE6HyMw0KJK&sourceid=chrome&ie=UTF-8&ved=2ahUKEwi_jpCeuZCSAxXLGjQIHW-6FMwQgK4QegQIARAE)** enforces rules like only one mutable reference or many immutable references at a time, ensuring safe concurrent access and automatic memory cleanup when the owner goes out of scope.
