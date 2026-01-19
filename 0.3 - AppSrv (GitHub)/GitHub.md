@@ -49,3 +49,10 @@ git remote -v
 git remote remove origin
 
 git remote add origin
+
+for ignoring files in `.gitignore`:
+
+`/file-or-folder-name`: Only the `file-or-folder` folder at the **root** of your project
+`*/file-or-folder-name`: A `file-or-folder` folder exactly **one level deep** (e.g., `rust-hello-world/target`)
+`**/file-or-folder-name`: A `file-or-folder` folder **anywhere** (root, one level deep, ten levels deep)
+- Add a trailing slash (e.g., `**/folder-name/`). This tells Git to only ignore _directories_ named target, but not a _file_ that might accidentally be named `folder-name` (without an extension)
