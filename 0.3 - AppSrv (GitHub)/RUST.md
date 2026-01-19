@@ -22,6 +22,32 @@ Cargo is Rust's Package Manager<sup>5</sup>.
 
 ![[Pasted image 20260119140817.png]]
 
+Since Rust's `println!` is a **macro** it requires a string literal as its first argument to define how the output should be formatted. If we write `println!(variable);` the compiler would throw an error because it expects a format string (a literal "...") first, not a variable. The `println!` macro parses the string at **compile time**. The `{}` tells Rust: _"Expect a value here and format it using the `Display` trait."_ So we need to write it as:
+
+```Rust
+println!("{variable}");
+
+// can also be written as
+println!("{}", variable);
+```
+
+```Rust
+let x = 5;
+let y = 10;
+
+println!("x is {x} and y is {y}");
+
+// the braces act as slots for the variables that follow 
+println!("x is {} and y is {}", x, y);
+```
+
+`{}` is the simplest form of a placeholder, and we can put instructions inside them to change how the data looks:
+- `{:?}`: prints the value using **Debug** formatting
+- `{:x}`: prints a number in **Hexadecimal**
+- `{:.2}`: limits a float to **two decimal places** 
+
+
+
 
 
 
