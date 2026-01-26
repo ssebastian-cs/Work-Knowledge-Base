@@ -1,6 +1,10 @@
 
 Identity and Access Management
 
+- Authentication
+- Authorization
+- Single Sign-On (SSO)
+
 ---
 
 Lifecycle Management (LCM) helps connect users with apps
