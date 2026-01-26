@@ -6,6 +6,9 @@ Identity and Access Management
 - Single Sign-On (SSO)
 - Multi-factor Authentication
 - Passwordless Authentication
+- Privileged access management
+- Identity federation
+- User lifecycle management*
 
 ---
 
