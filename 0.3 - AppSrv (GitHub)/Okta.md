@@ -4,6 +4,8 @@ Identity and Access Management
 - Authentication
 - Authorization
 - Single Sign-On (SSO)
+- Multi-factor Authentication
+- Passwordless Authentication
 
 ---
 
