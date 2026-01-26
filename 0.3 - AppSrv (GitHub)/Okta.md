@@ -1,8 +1,6 @@
 
 Identity and Access Management
 
-Stampede26!
-
 ---
 
 Lifecycle Management (LCM) helps connect users with apps
