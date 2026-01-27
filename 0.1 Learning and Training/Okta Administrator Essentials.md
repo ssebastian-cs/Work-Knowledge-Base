@@ -1,5 +1,7 @@
 Cynthia Wade - cynthia.wade@okta.com
 
+**Heropa - what is that?** - Cloud based IT Labs Platform
+
 Day 1: On the final day we will get certificate of attendance to claim credits.
 
 We will do polls to review content and ask questions.
@@ -69,4 +71,54 @@ Integrating Existing Directories
 	delegating authentication
 	Setup multiple threads to improve the Okta AD Sync training agent
 
+#### OIC - Workforce Identity (employees) and Customer Identity (people purchasing services from Company)
 
+SSO:
+Using SAML for authentication v/s WF-FED (Microsoft 365) or OIDC
+	Okta found Secure Web Authentication
+
+Universal Directory:
+Describe any attribute, bring into Okta and then share the User profile with other applications
+	Allows us to add attributes to Users that are not there
+	Allows data transformation before sharing the User Profile
+
+Advanced Server Access:
+Have the ability to provision Users and their Access Policies (covered in Okta Advanced Server Access)
+
+Adaptive MFA:
+We have the capacity to setup 2 factors
+	We can challenge the Users to provide additional information
+
+User Lifecycle Management (Application Provisioning):
+Will make it possible to CRUD User Profiles in Applications
+	We can remove access User access to applications with 1 click
+
+Access Gateway:
+Solution Developed to setup SSO for on-premises application (like PeopleSoft)
+
+API Access Management:
+To control access to any APIs based on various factors (like device, user role, group membership, location, etc.)
+
+Authentication, Authorization, and User Management
+
+*What is AD FS Management?*
+#### Lab: 1st Activity
+
+*Note: Essentials Org Practical and SF Practical (do yourself)*
+
+1. Okta Credentials
+2. Setup MFA
+   ![[Pasted image 20260127091221.png]]
+
+*Setup Okta Verify (is that how you set it up on desktop?)*
+*Got the prompt to setup MFA when I was trying to log in to the End User dashboard -  noticed it was different for Cynthia who was only prompted when going to the Admin panel - is that standard?*
+
+3. Setup Okta Verify on Mobile Device
+4. End User Dashboard
+
+**Navigating to Admin Dashboard:**
+
+Defining Users in Okta
+
+
+Day 2 - SF Sandbox
