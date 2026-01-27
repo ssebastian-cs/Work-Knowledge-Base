@@ -34,7 +34,7 @@ Networking
 SAML & OAuth 2.0
 
 Discussed the challenges faced which Okta solves:
-**LDAP**
+**LDAP** - Lightweight Directory Access Protocol
 
 How to manage users and update them?
 What is Universal Directory?
@@ -102,7 +102,11 @@ To control access to any APIs based on various factors (like device, user role, 
 Authentication, Authorization, and User Management
 
 *What is AD FS Management?*
-#### Lab: 1st Activity
+
+### Module 1
+
+*arranged the above notes here*
+#### Lab: 1-1 - Access the lab environment
 
 *Note: Essentials Org Practical and SF Practical (do yourself)*
 
@@ -118,7 +122,71 @@ Authentication, Authorization, and User Management
 
 **Navigating to Admin Dashboard:**
 
-Defining Users in Okta
+### Module 2
 
+3 types of people we can create in Okta:
+1. Okta-sourced
+2. Directory-sourced (delegated authentication)
+3. Application-sourced (usually an HR App but can be any application)
+
+31 default Base Attributes + custom attributes (while importing mark attributes as optional so that it doesn't fail)
+	By default first and last name is required but this can be marked optional
+	Required Attributes
+		*First Name* - can be marked optional
+		*Last Name* - can be marked optional
+		*Username (must be in an email format - doesn't need to be a real email)*
+		*Primary Email* - *has to be a real email*
+		*Secondary Email (optional) - has to be a real email*
+			*both receive activation email*
+
+Okta Statuses (review how it is different in all types of sourced profiles):
+	Initial States (On-boarding):
+		Staged State
+		Pending User Action State
+	Active State
+	Deactivated (Termination State)
+		*Removes all applications previously assigned to user (deprovisioned at once)*
+		*Removes password for the user so they cannot sign into Okta*
+		*Can be reactivated*
+	Blocked States:
+		Password Reset State
+		Password Expired State
+		Locked Out State
+		Suspended State (*does not remove applications or password - but password may expired depending on policy*)
+
+For Directory Sourced (Blocked States will relate to all 3 types of Users):
+	Change the status in AD and the AD Agent will pull the state from AD and push it into Okta
+	Manage Password for Users in AD (unless we turn off Delegated Authentication and have policies to do so in Okta)
+
+What about users that come in from Federated Managed IdPs?
+	There is an Identity Providers section
+		Directory > Profile Editor > Identity Providers
+
+We can create Users individually or through a Bulk Import template CSV file
+	Custom attributes must be added to Okta User Profile before importing
+	*To download this template*: Directory > People > More Actions > Import Users from CSV > *this template*
+
+#### Lab 2-1: Create Okta-sourced users (Module 2)
+
+- Create the Okta Admin Account
+- Create a Personal Account
+- Activate the Personal Account
+
+*Note: Have a Primary Admin Account and a Backup Admin Account*
+
+1. ![[Pasted image 20260127101925.png]]
+2. ![[Pasted image 20260127102153.png]]
+3. ![[Pasted image 20260127102008.png]]
+4. ![[Pasted image 20260127102302.png]]
+
+Bulk import CSV for contractors (we can use the CSV to update - use the original CSV)
+	ensure login is in username format (email format)
+	even if one user has issues the others will be created
+   
+what are the situations when users don't need to add security methods?
+
+pw for shaun.sebastian: Tra!nme1234
+pw for ss-test: aA!12345
+	Check our Okta Authenticators for the issue 
 
 Day 2 - SF Sandbox
