@@ -241,6 +241,40 @@ We can download the different agents through Settings > Downloads
 
 #### Lab 3-1: Integrate an Active Directory instance (part 1 of 2)
 
+![[Pasted image 20260127141827.png]]
+
+![[Pasted image 20260127142239.png]]
+
+![[Pasted image 20260127142407.png]]
+
+PW for the Okta Service Account: Tra!nme4321
+
+![[Pasted image 20260127142613.png]]
+
+![[Pasted image 20260127142725.png]]
+
+![[Pasted image 20260127142803.png]]
+
+![[Pasted image 20260127142841.png]]
+![[Pasted image 20260127142849.png]]
+
+![[Pasted image 20260127142934.png]]
+
+![[Pasted image 20260127143149.png]]
+![[Pasted image 20260127143204.png]]
+
+![[Pasted image 20260127143301.png]]
+
+![[Pasted image 20260127143357.png]]
+
+![[Pasted image 20260127143448.png]]
+
+![[Pasted image 20260127143547.png]]
+![[Pasted image 20260127144110.png]]
+
+#### Lab 3-2: Integrate an Active Directory instance (part 2 of 2)
+
+
 
 
 
