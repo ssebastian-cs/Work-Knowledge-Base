@@ -274,6 +274,8 @@ PW for the Okta Service Account: Tra!nme4321
 
 #### Lab 3-2: Integrate an Active Directory instance (part 2 of 2)
 
+![[Pasted image 20260127144758.png]]
+
 
 
 
