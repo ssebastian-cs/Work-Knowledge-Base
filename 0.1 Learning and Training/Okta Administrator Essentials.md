@@ -235,7 +235,9 @@ We cannot user JIT Provisioning (Profile is created when User Signs in) without 
 
 The agent is an Okta Account and it will run as a **service**.
 
+Directory > Directory Integrations > Add Active Directory >Set up Active Directory > Download Agent
 
+We can download the different agents through Settings > Downloads
 
 
 
@@ -245,6 +247,7 @@ The agent is an Okta Account and it will run as a **service**.
 what are the situations when users don't need to add security methods?
 	- Authenticators
 
+pw for okta.admin: Tra!nme4321
 pw for shaun.sebastian: Tra!nme1234
 pw for ss-test: Boop123@
 	Check our Okta Authenticators for the issue 
