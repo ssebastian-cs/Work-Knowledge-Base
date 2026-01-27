@@ -226,6 +226,18 @@ Reports > Reports and System Log
 
 ### Module 3 - **Integrate Existing Directories**
 
+Best Practice - Setup 2 AD agents
+
+We cannot user JIT Provisioning (Profile is created when User Signs in) without Delegated Authentication (Authentication is outside of Okta w/ the Directory)
+	Delegated Authentication is enabled by default when we install the Okta AD agent
+
+![[Pasted image 20260127133250.png]]
+
+The agent is an Okta Account and it will run as a **service**.
+
+
+
+
 
 
 ---
