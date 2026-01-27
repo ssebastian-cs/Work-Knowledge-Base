@@ -267,6 +267,8 @@ PW for the Okta Service Account: Tra!nme4321
 
 ![[Pasted image 20260127143357.png]]
 
+If we get kicked out in this process we don't need to restart it we should be able to continue where we left off
+
 ![[Pasted image 20260127143448.png]]
 
 ![[Pasted image 20260127143547.png]]
@@ -276,7 +278,19 @@ PW for the Okta Service Account: Tra!nme4321
 
 ![[Pasted image 20260127144758.png]]
 
+**JIT Provisioning**
 
+![[Pasted image 20260127145621.png]]
+
+![[Pasted image 20260127145845.png]]
+![[Pasted image 20260127150033.png]]
+
+Testing JIT Provisioning as jennifer.jones/Tra!nme4321
+
+![[Pasted image 20260127150356.png]]
+
+![[Pasted image 20260127150645.png]]
+![[Pasted image 20260127150903.png]]
 
 
 
