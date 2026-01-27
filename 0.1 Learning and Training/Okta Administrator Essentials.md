@@ -294,11 +294,30 @@ Testing JIT Provisioning as jennifer.jones/Tra!nme4321
 
 Import Users from Active Directory to Okta
 
+A user is only in Okta when they are confirmed and cannot login till they are activated
+![[Pasted image 20260127153847.png]]
+
 ![[Pasted image 20260127152753.png]]
 
 ![[Pasted image 20260127152820.png]]
 
 ![[Pasted image 20260127152850.png]]
+
+![[Pasted image 20260127153458.png]]
+
+![[Pasted image 20260127153529.png]]
+
+![[Pasted image 20260127153605.png]]
+
+Import settings can be updated
+
+![[Pasted image 20260127153712.png]]
+![[Pasted image 20260127153926.png]]
+
+#### Lab 3-3: Fine tune the Active Directory agent
+
+
+
 
 
 
