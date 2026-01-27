@@ -103,7 +103,7 @@ Authentication, Authorization, and User Management
 
 *What is AD FS Management?*
 
-### Module 1
+### Module 1 - Course Introduction
 
 *arranged the above notes here*
 #### Lab: 1-1 - Access the lab environment
@@ -122,7 +122,7 @@ Authentication, Authorization, and User Management
 
 **Navigating to Admin Dashboard:**
 
-### Module 2
+### Module 2 - Define Users in Okta
 
 3 types of people we can create in Okta:
 1. Okta-sourced
@@ -221,6 +221,10 @@ Note: In the Admin Consloe in general - changes may need to cycle overnight to r
 Security > Administrators
 
 #### Lab 2-3: Monitor user account activities
+
+Reports > Reports and System Log
+
+### Module 3 - **Integrate Existing Directories**
 
 
 
