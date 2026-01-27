@@ -205,6 +205,8 @@ Custom - for more granular control
 
 Note: In the Admin Consloe in general - changes may need to cycle overnight to reflect (the dashboard for example)
 
+Security > Administrators
+
 ---
 
 what are the situations when users don't need to add security methods?
