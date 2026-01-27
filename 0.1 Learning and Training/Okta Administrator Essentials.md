@@ -239,6 +239,8 @@ Directory > Directory Integrations > Add Active Directory >Set up Active Directo
 
 We can download the different agents through Settings > Downloads
 
+#### Lab 3-1: Integrate an Active Directory instance (part 1 of 2)
+
 
 
 
@@ -247,7 +249,7 @@ We can download the different agents through Settings > Downloads
 what are the situations when users don't need to add security methods?
 	- Authenticators
 
-pw for okta.admin: Tra!nme4321
+pw for okta.admin: Tra!nme4321$
 pw for shaun.sebastian: Tra!nme1234
 pw for ss-test: Boop123@
 	Check our Okta Authenticators for the issue 
