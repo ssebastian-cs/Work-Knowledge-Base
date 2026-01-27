@@ -301,6 +301,8 @@ A user is only in Okta when they are confirmed and cannot login till they are ac
 
 ![[Pasted image 20260127152820.png]]
 
+![[Pasted image 20260127160150.png]]
+I imported again and got this:
 ![[Pasted image 20260127152850.png]]
 
 ![[Pasted image 20260127153458.png]]
