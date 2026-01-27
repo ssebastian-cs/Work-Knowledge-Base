@@ -292,6 +292,15 @@ Testing JIT Provisioning as jennifer.jones/Tra!nme4321
 ![[Pasted image 20260127150645.png]]
 ![[Pasted image 20260127150903.png]]
 
+Import Users from Active Directory to Okta
+
+![[Pasted image 20260127152753.png]]
+
+![[Pasted image 20260127152820.png]]
+
+![[Pasted image 20260127152850.png]]
+
+
 
 
 ---
