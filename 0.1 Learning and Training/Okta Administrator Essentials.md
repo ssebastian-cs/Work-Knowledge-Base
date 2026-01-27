@@ -199,13 +199,30 @@ Standard
 	Group Admin
 		Can perform certain user related tasks in a specific group
 
-Custom - for more granular control
+Custom - for more granular control (least privileged access)
+
+**Admin Dashboard**
+
+Tasks *(3 types of tasks)*
+- To-do
+- Info
+- Error
+
+**Reports** (*System Logs can be accessed from here with pre-defined filers applied*)
+
+Note: By default the reports and system logs are retained for 90 days - if they are needed for longer then download as CSV and store locally
+
+Pre-configured reports
 
 #### Lab 2-2: Assign administrative roles
 
 Note: In the Admin Consloe in general - changes may need to cycle overnight to reflect (the dashboard for example)
 
 Security > Administrators
+
+#### Lab 2-3: Monitor user account activities
+
+
 
 ---
 
