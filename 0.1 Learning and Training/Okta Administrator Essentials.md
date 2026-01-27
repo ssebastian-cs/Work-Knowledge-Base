@@ -182,11 +182,38 @@ We can create Users individually or through a Bulk Import template CSV file
 Bulk import CSV for contractors (we can use the CSV to update - use the original CSV)
 	ensure login is in username format (email format)
 	even if one user has issues the others will be created
-   
+
+#### Administrator
+
+Standard
+	Super Admin
+		Only account that can assign admin privileges
+	Organization Admin
+		Cannot Perform Application Management tasks
+	Application Admin
+		Cannot manage Organization settings
+	Help Desk Admin
+		Standard Help Desk Tasks
+	Read Only Admin
+		Can view things but cannot modify Organizational settings
+	Group Admin
+		Can perform certain user related tasks in a specific group
+
+Custom - for more granular control
+
+#### Lab 2-2: Assign administrative roles
+
+Note: In the Admin Consloe in general - changes may need to cycle overnight to reflect (the dashboard for example)
+
+---
+
 what are the situations when users don't need to add security methods?
+	- Authenticators
 
 pw for shaun.sebastian: Tra!nme1234
-pw for ss-test: aA!12345
+pw for ss-test: Boop123@
 	Check our Okta Authenticators for the issue 
+
+---
 
 Day 2 - SF Sandbox
