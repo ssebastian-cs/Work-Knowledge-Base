@@ -218,7 +218,7 @@ Best Practice - Setup 2 AD agents on 2 separate servers (both agents should be a
 We cannot user JIT Provisioning (Profile is created when User Signs in) without Delegated Authentication (Authentication is outside of Okta w/ the Directory)
 	Delegated Authentication is enabled by default when we install the Okta AD agent
 
-Not only can you create new Okta accounts by importing users from Active Directory, but you can also create new Active Directory accounts by pushing users into AD as Application-sourced users. (*Need to do through  Manually or through Workflows*)
+Not only can you create new Okta accounts by importing users from Active Directory, but you can also create new Active Directory accounts by pushing users into AD as Application-sourced users. (*Need to do through write-back (provisioning) users from Okta to AD or through Workflows*)
 
 ![[Pasted image 20260127133250.png]]
 
