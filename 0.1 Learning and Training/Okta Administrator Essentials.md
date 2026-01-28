@@ -316,7 +316,7 @@ Import settings can be updated
 - Application Sourced
 	- If deleted groups will disappear but users will remain and become Okta Sourced
 
-
+Group Rules
 
 
 ---
