@@ -376,6 +376,10 @@ WS-FED
 SAML can provide deep linking 
 #### Lab 5-2: Configure SAML SSO for Salesforce
 
+![[Pasted image 20260128154743.png]]
+
+In the latest release Spring '26 release we need to configure it like this:
+![[Pasted image 20260128154927.png]]
 
 
 ---
@@ -396,6 +400,12 @@ Understand better:
 	SAML & OAuth 2.0
 	**LDAP** - Lightweight Directory Access Protocol
 	What is Universal Directory?
+
+
+---
+
+Ask Cynthia for an updated lab guide
+
 
 ---
 
