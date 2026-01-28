@@ -366,6 +366,8 @@ SSO Integration Methods:
 SWA
 SAML 2.0 (*what is OAuth 2.0*)
 - ACS (Assertion Consumer Service)
+- Requires information from both sides (IdP and SP) - establish trust
+	- metadata includes the certificate provided by Okta
 OIDC
 WS-FED
 #### Lab 5-1: Add an application with SWA
