@@ -226,7 +226,9 @@ Reports > Reports and System Log
 
 ### Module 3 - **Integrate Existing Directories**
 
-Best Practice - Setup 2 AD agents
+Best Practice - Setup 2 AD agents on 2 separate servers (both agents should be active)
+	- these agents check heartbeat to see if either are operational and send a signal every 2 minutes *to the server or the other agent?*
+	- they can communicate across domains but not across forests
 
 We cannot user JIT Provisioning (Profile is created when User Signs in) without Delegated Authentication (Authentication is outside of Okta w/ the Directory)
 	Delegated Authentication is enabled by default when we install the Okta AD agent
@@ -318,7 +320,7 @@ Import settings can be updated
 
 #### Lab 3-3: Fine tune the Active Directory agent
 
-
+![[Pasted image 20260128082710.png]]
 
 
 
