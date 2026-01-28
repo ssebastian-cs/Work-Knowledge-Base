@@ -363,6 +363,10 @@ SSO Integration Methods:
 2. 2nd Option - AIW - if it is not possible through OIN then go to option 3
 3. 3rd Option - Templates
 
+#### Lab 5-1: Add an application with SWA
+
+#### Lab 5-2: Configure SAML SSO for Salesforce
+
 
 
 ---
