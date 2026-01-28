@@ -344,7 +344,24 @@ We can have rules based assignment
 ![[Pasted image 20260128100835.png]]
 ### Module 5: Authenticate with SSO (Single Sign-On)
 
+**Okta Integration Network**
+Super Admin and Application Admin can configure Applications for authentication. 
 
+End User <---> Identity Provider <---> Service Provider
+
+SWA (Secure Web Authentication) -  Developed by Okta
+	Requires Okta Plug-in
+
+Federated Authentication
+	- **The Identity Provider (IdP):** Google or Microsoft. They "vouch" for who you are.
+	- **The Service Provider (SP):** Your app or website. It trusts the IdP’s word.
+- **OIDC (OpenID Connect):** Most common for "Sign-in with Google/Apple."
+- **SAML (Security Assertion Markup Language):** More common in corporate/enterprise environments (like signing into Zoom using your company's Microsoft account).
+
+SSO Integration Methods:
+1. 1st Option  - OIN - if not in catalogue then go to option 2
+2. 2nd Option - AIW - if it is not possible through OIN then go to option 3
+3. 3rd Option - Templates
 
 
 
