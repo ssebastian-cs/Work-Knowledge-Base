@@ -307,6 +307,15 @@ Import settings can be updated
 
 ![[Pasted image 20260128082710.png]]
 
+### Module 4 - Organize Users using Groups
+
+3 Types of Groups:
+- Okta Sourced
+- Directory Sourced
+	- If deleted groups will disappear but users will remain and become Okta Sourced
+- Application Sourced
+	- If deleted groups will disappear but users will remain and become Okta Sourced
+
 
 
 
