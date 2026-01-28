@@ -363,8 +363,15 @@ SSO Integration Methods:
 2. 2nd Option - AIW - if it is not possible through OIN then go to option 3
 3. 3rd Option - Templates
 
+SWA
+SAML 2.0 (*what is OAuth 2.0*)
+- ACS (Assertion Consumer Service)
+OIDC
+WS-FED
 #### Lab 5-1: Add an application with SWA
 
+
+SAML can provide deep linking 
 #### Lab 5-2: Configure SAML SSO for Salesforce
 
 
