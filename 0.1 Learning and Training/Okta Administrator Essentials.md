@@ -323,16 +323,15 @@ Import settings can be updated
 
 
 
-
 ---
-
-what are the situations when users don't need to add security methods?
-	- Authenticators
 
 pw for okta.admin: Tra!nme4321$
 pw for shaun.sebastian: Tra!nme1234
 pw for ss-test: Boop123@
 	Check our Okta Authenticators for the issue 
+
+Okta Application Integration Wizard
+SAML
 
 ---
 
