@@ -317,6 +317,23 @@ Import settings can be updated
 	- If deleted groups will disappear but users will remain and become Okta Sourced
 
 Group Rules
+- We have to deactivate user first and then delete them we cannot delete before deactivating 
+
+#### ab 4-1: Manage users using groups
+
+*Don't see how they are managed on sandbox*
+
+We can have rules based assignment
+
+![[Pasted image 20260128094856.png]]
+
+![[Pasted image 20260128094915.png]]
+
+![[Pasted image 20260128095111.png]]
+
+
+
+
 
 
 ---
