@@ -1,7 +1,5 @@
 Cynthia Wade - cynthia.wade@okta.com
 
-**Heropa - what is that?** - Cloud based IT Labs Platform
-
 Day 1: On the final day we will get certificate of attendance to claim credits.
 
 We will do polls to review content and ask questions.
@@ -26,19 +24,6 @@ Introductions:
 - Allen George - S&P Global - Detroit
 - Jamie West - And Allen, Siddharth and Annie work together - S&P Global - Detroit
 - Siddhart Sappal - Working from Mexico virtually - S&P Global - Mexico
-
----
-
-Active Directory
-Networking
-SAML & OAuth 2.0
-
-Discussed the challenges faced which Okta solves:
-**LDAP** - Lightweight Directory Access Protocol
-
-How to manage users and update them?
-What is Universal Directory?
-Add attributes to Users
 
 ---
 
@@ -332,9 +317,17 @@ pw for shaun.sebastian: Tra!nme1234
 pw for ss-test: Boop123@
 	Check our Okta Authenticators for the issue 
 
-Okta Application Integration Wizard
-SAML
-Understand Polling Threads better
+Understand better:
+	Polling Threads 
+	**Heropa - what is that?** - Cloud based IT Labs Platform
+	Proxy Servers
+	Okta Application Integration Wizard
+	SAML
+	Active Directory
+	Networking
+	SAML & OAuth 2.0
+	**LDAP** - Lightweight Directory Access Protocol
+	What is Universal Directory?
 
 ---
 
