@@ -319,7 +319,7 @@ Import settings can be updated
 Group Rules
 - We have to deactivate user first and then delete them we cannot delete before deactivating 
 
-#### ab 4-1: Manage users using groups
+#### ab 4-1: Manage users using groups (**Exam POV**)
 
 *Don't see how they are managed on sandbox*
 
@@ -330,6 +330,16 @@ We can have rules based assignment
 ![[Pasted image 20260128094915.png]]
 
 ![[Pasted image 20260128095111.png]]
+
+![[Pasted image 20260128100613.png]]
+
+![[Pasted image 20260128100655.png]]
+
+![[Pasted image 20260128100556.png]]
+
+![[Pasted image 20260128100637.png]]
+
+![[Pasted image 20260128100835.png]]
 
 
 
