@@ -381,6 +381,12 @@ SAML can provide deep linking
 In the latest release Spring '26 release we need to configure it like this:
 ![[Pasted image 20260128154927.png]]
 
+IdP initiated SAML SSO:
+	where we get details from SF and then generate XML file (certificate) to get the login URL from SF and use it in Okta which allows users to login via SSO
+SP initiated SAML SSO:
+	
+
+
 
 ---
 Tra!nme4321
