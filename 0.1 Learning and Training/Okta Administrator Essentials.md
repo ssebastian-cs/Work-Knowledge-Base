@@ -414,6 +414,8 @@ In the Callback URL field, copy and paste this URL: https://system-admin.okta.co
 ![[Pasted image 20260129111127.png]]
 
 
+
+
 ---
 Tra!nme4321
 pw for okta.admin: Tra!nme4321$
