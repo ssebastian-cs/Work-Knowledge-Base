@@ -422,8 +422,12 @@ Attribute-level Sourcing (ALS)
 **Layered Security Protection**
 ![[Pasted image 20260129141021.png]]
 
+Policies we add will work with existing policies:
+	default policy says factor is disabled (inactive)
+	custom policy makes it required
+	default policy makes it required (active)
 
-
+1 is the policy with the highest priority
 
 
 
