@@ -413,6 +413,8 @@ In the Callback URL field, copy and paste this URL: https://system-admin.okta.co
 
 ![[Pasted image 20260129111127.png]]
 
+### Module 7: Manage User Profiles in Universal Directory
+
 
 
 
