@@ -411,7 +411,7 @@ In the Callback URL field, copy and paste this URL: https://system-admin.okta.co
 ![[Pasted image 20260129104059.png]]
 
 
-
+![[Pasted image 20260129111127.png]]
 
 
 ---
