@@ -407,6 +407,11 @@ Provisioning (**CRUD in the context of Okta**)
 In the Callback URL field, copy and paste this URL: https://system-admin.okta.com/admin/app/generic/oauth20redirect
 
 
+![[Pasted image 20260129104139.png]]
+![[Pasted image 20260129104059.png]]
+
+
+
 
 
 ---
