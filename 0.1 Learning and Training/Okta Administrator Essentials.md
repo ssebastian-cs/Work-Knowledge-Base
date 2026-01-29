@@ -417,6 +417,16 @@ In the Callback URL field, copy and paste this URL: https://system-admin.okta.co
 
 Attribute-level Sourcing (ALS)
 
+### Module 8: Strengthen Security using the Okta Policy Framework
+
+**Layered Security Protection**
+![[Pasted image 20260129141021.png]]
+
+
+
+
+
+
 
 ---
 Tra!nme4321
