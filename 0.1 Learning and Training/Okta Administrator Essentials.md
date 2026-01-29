@@ -404,6 +404,8 @@ Provisioning (**CRUD in the context of Okta**)
 	- Deactivate - We can deactivate accounts when they are unassigned and also downstream it (if we deactivate in Okta it will deactivate the user in the downstream application)
 	- Sync Passwords
 
+In the Callback URL field, copy and paste this URL: https://system-admin.okta.com/admin/app/generic/oauth20redirect
+
 
 
 
