@@ -381,20 +381,23 @@ SAML can provide deep linking
 In the latest release Spring '26 release we need to configure it like this:
 ![[Pasted image 20260128154927.png]]
 
-IdP initiated SAML SSO:
+IdP initiated SAML SSO - Okta generates the SAML assertion:
 	where we get details from SF and then generate XML file (certificate) to get the login URL from SF and use it in Okta which allows users to login via SSO
 	![[Pasted image 20260129084956.png]]
 	![[Pasted image 20260129085521.png]]
-SP initiated SAML SSO:
+SP initiated SAML SSO - if session with the application exists then it works but if not the user needs to sign into Okta for it to send the SAML assertion:
 	we just have turn it on:
 	![[Pasted image 20260129084919.png]]
 	![[Pasted image 20260129085335.png]]
 
+### Module 6: Manage User Lifecycle
 
+Joiner-Mover-Leaver Process for Lifecycle Management
 
-
-
-
+**Account Provisioning**:
+	We can have multiple sources of truths (Directories - Directories As Sources + Application - Applications as Sources)
+	
+	
 ---
 Tra!nme4321
 pw for okta.admin: Tra!nme4321$
