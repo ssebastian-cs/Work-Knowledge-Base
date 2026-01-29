@@ -383,8 +383,15 @@ In the latest release Spring '26 release we need to configure it like this:
 
 IdP initiated SAML SSO:
 	where we get details from SF and then generate XML file (certificate) to get the login URL from SF and use it in Okta which allows users to login via SSO
+	![[Pasted image 20260129084956.png]]
+	![[Pasted image 20260129085521.png]]
 SP initiated SAML SSO:
-	
+	we just have turn it on:
+	![[Pasted image 20260129084919.png]]
+	![[Pasted image 20260129085335.png]]
+
+
+
 
 
 
