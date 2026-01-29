@@ -389,6 +389,8 @@ pw for shaun.sebastian: Tra!nme1234
 pw for ss-test: Boop123@
 	Check our Okta Authenticators for the issue 
 
+oktaeducation.com/email
+
 Understand better:
 	Polling Threads 
 	**Heropa - what is that?** - Cloud based IT Labs Platform
