@@ -396,8 +396,17 @@ Joiner-Mover-Leaver Process for Lifecycle Management
 
 **Account Provisioning**:
 	We can have multiple sources of truths (Directories - Directories As Sources + Application - Applications as Sources)
-	
-	
+
+
+Provisioning (**CRUD in the context of Okta**)
+	- Create: When the user is assigned the application is when the profile is created on the application - if the user is already assigned and then we setup provision it won't work because it isn't retroactive - the attributes depend on mapping
+	- Updated - If we update information on the downstream application then it will get rewritten from Okta (it will get precedence to overwrite it in the application)
+	- Deactivate - We can deactivate accounts when they are unassigned and also downstream it (if we deactivate in Okta it will deactivate the user in the downstream application)
+	- Sync Passwords
+
+
+
+
 ---
 Tra!nme4321
 pw for okta.admin: Tra!nme4321$
